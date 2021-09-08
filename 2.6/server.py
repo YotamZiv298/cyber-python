@@ -10,7 +10,7 @@ def main():
     """
     The main function.
 
-    :return: None
+    :return: None.
     """
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server_socket.bind((IP, protocol.PORT))

@@ -8,7 +8,7 @@ def main():
     """
     The main function.
 
-    :return: None
+    :return: None.
     """
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     client_socket.connect((IP, protocol.PORT))
